@@ -18,6 +18,7 @@ const MessageSechma: Schema<MessageInterface> = new mongoose.Schema({
 });
 // here trim Will remove the extra lines of spacing if there any space trime will remove it 
 // Match /.+\@.+\..+/  this is the Ragex we use it for so the user will enter the correct name
+
 // Match basically is from the moonshos
 const Usersechma: Schema<Userinterface> = new mongoose.Schema({
     username: {
