@@ -14,5 +14,9 @@ export const signupsecacmavalidations = z.object({
     .min(6, { message: 'Password must be at least 6 characters' }),
 })
 
+
+
+
+
 // so here usernameValidation i have used bcs i have only one value
 // signupsecacmavalidations = z.object({  for multiple values
