@@ -88,10 +88,10 @@ export const Authoptions: NextAuthOptions = {
 
     
     pages: {
-        signIn: '/auths/signin',
-        signOut: '/auth/signout',
-        error: '/auth/error', // Error code passed in query string as ?error=
-        verifyRequest: '/auth/verify-request', // (used for check email message)
+        signIn: '/sign-in',
+        signOut: '/sign-out',
+        error: '/error', // Error code passed in query string as ?error=
+        verifyRequest: '/verify-request', // (used for check email message)
         newUser: '/auth/new-user'
     },
     // here want to check where is the user
